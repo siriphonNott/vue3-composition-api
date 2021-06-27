@@ -3,17 +3,17 @@
     <h3 class="font-semibold">Ref and Reactive with Hooks</h3>
     <hr class="mb-2" />
     <div>
-      <div class="bg-gray-800 rounded-lg text-white py-2 px-3 inline-block w-36">
+      <div class="bg-gray-800 rounded-lg text-white py-2 px-3 mr-2 inline-block w-36">
         Counter Ref: {{ counterRef }}
       </div>
       <button
-        class="rounded-lg text-white py-2 px-4 ml-2 bg-green-400 hover:bg-green-500 focus:outline-none"
+        class="rounded-lg text-white py-2 mr-2 px-3 bg-green-400 hover:bg-green-500 focus:outline-none"
         @click="onIncreaseRef"
       >
         + Increase
       </button>
       <button
-        class="rounded-lg text-white py-2 px-4 ml-2 bg-red-400 hover:bg-red-500 focus:outline-none"
+        class="rounded-lg text-white py-2 px-3 md:mt-0 mt-2 bg-red-400 hover:bg-red-500 focus:outline-none"
         @click="onDecreaseRef"
       >
         - Decrease
@@ -21,18 +21,18 @@
     </div>
     <div>
       <div
-        class="bg-gray-800 rounded-lg text-white py-2 px-3 inline-block w-36 mt-2"
+        class="bg-gray-800 rounded-lg text-white py-2 px-3 mr-2 inline-block w-36 mt-2"
       >
         Counter Rt: {{ counterRt.counter }}
       </div>
       <button
-        class="rounded-lg text-white py-2 px-4 ml-2 bg-green-400 hover:bg-green-500 focus:outline-none"
+        class="rounded-lg text-white py-2 px-3 mr-2  bg-green-400 hover:bg-green-500 focus:outline-none"
         @click="onIncreaseRt"
       >
         + Increase
       </button>
       <button
-        class="rounded-lg text-white py-2 px-4 ml-2 bg-red-400 hover:bg-red-500 focus:outline-none"
+        class="rounded-lg text-white py-2 md:mt-0 mt-2 px-3 bg-red-400 hover:bg-red-500 focus:outline-none"
         @click="onDecreaseRt"
       >
         - Decrease

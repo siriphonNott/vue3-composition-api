@@ -1,16 +1,16 @@
 <template>
   <div class="my-4">
-    <div class="bg-gray-800 rounded-lg text-white py-2 px-3 inline-block w-36">
+    <div class="bg-gray-800 rounded-lg text-white py-2 px-3 mr-2 inline-block w-30">
       Counter: {{ counter }}
     </div>
     <button
-      class="rounded-lg text-white py-2 px-4 ml-2 bg-green-400 hover:bg-green-500 focus:outline-none"
+      class="rounded-lg text-white py-2 px-3 mr-2 bg-green-400 hover:bg-green-500 focus:outline-none"
       @click="onIncrease"
     >
       + Increase
     </button>
     <button
-      class="rounded-lg text-white py-2 px-4 ml-2 bg-red-400 hover:bg-red-500 focus:outline-none"
+      class="rounded-lg text-white py-2 px-3 md:mt-0 mt-2 bg-red-400 hover:bg-red-500 focus:outline-none"
       @click="onDecrease"
     >
       - Decrease
